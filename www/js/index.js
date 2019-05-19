@@ -34,7 +34,7 @@ var app = {
             // if (this.platform.is('android')) {
             //   options = 'hideurlbar=yes';
             // }
-            window.cordova.InAppBrowser.open('https://myshopprime.com/vivek.maheshwari/shop', '_blank', options);
+            window.cordova.InAppBrowser.open(encodeURI('https://myshopprime.com/vivek.maheshwari/shop'), '_blank', options);
     },
 
     // Update DOM on a Received Event

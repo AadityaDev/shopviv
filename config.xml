@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='utf-8'?>
 <widget id="com.vivek.app" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
-    <name>ShopViv</name>
+    <name>TheShopprime</name>
     <description>
         A sample Apache Cordova application that responds to the deviceready event.
     </description>
@@ -8,6 +8,7 @@
         Aditya
     </author>
     <content src="index.html" />
+    <plugin name="cordova-plugin-inappbrowser" spec="^3.0.0" />
     <plugin name="cordova-plugin-whitelist" spec="1" />
     <access origin="*" />
     <allow-intent href="http://*/*" />
@@ -18,6 +19,24 @@
     <allow-intent href="geo:*" />
     <platform name="android">
         <allow-intent href="market:*" />
+        <icon density="ldpi" src="res/icons/android/ldpi.png" />
+        <icon density="mdpi" src="res/icons/android/mdpi.png" />
+        <icon density="hdpi" src="res/icons/android/hdpi.png" />
+        <icon density="xhdpi" src="res/icons/android/xhdpi.png" />
+        <icon density="xxhdpi" src="res/icons/android/xxhdpi.png" />
+        <icon density="xxxhdpi" src="res/icons/android/xxxhdpi.png" />
+        <splash qualifier="land-ldpi" src="res/screens/android/splash-port-ldpi.png" />
+        <splash qualifier="land-mdpi" src="res/screens/android/splash-port-mdpi.png" />
+        <splash qualifier="land-hdpi" src="res/screens/android/splash-port-hdpi.png" />
+        <splash qualifier="land-xhdpi" src="res/screens/android/splash-port-xhdpi.png" />
+        <splash qualifier="land-xxhdpi" src="res/screens/android/splash-port-xxhdpi.png" />
+        <splash qualifier="land-xxxhdpi" src="res/screens/android/splash-port-xxxhdpi.png" />
+        <splash qualifier="port-ldpi" src="res/screens/android/splash-port-ldpi.png" />
+        <splash qualifier="port-mdpi" src="res/screens/android/splash-port-mdpi.png" />
+        <splash qualifier="port-hdpi" src="res/screens/android/splash-port-hdpi.png" />
+        <splash qualifier="port-xhdpi" src="res/screens/android/splash-port-xhdpi.png" />
+        <splash qualifier="port-xxhdpi" src="res/screens/android/splash-port-xxhdpi.png" />
+        <splash qualifier="port-xxxhdpi" src="res/screens/android/splash-port-xxxhdpi.png" />
     </platform>
     <platform name="ios">
         <allow-intent href="itms:*" />

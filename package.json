@@ -1,6 +1,6 @@
 {
   "name": "com.vivek.app",
-  "displayName": "HelloCordova",
+  "displayName": "TheShopprime",
   "version": "1.0.0",
   "description": "A sample Apache Cordova application that responds to the deviceready event.",
   "main": "index.js",
@@ -24,8 +24,6 @@
       "cordova-plugin-whitelist": {},
       "cordova-plugin-inappbrowser": {}
     },
-    "platforms": [
-      "android"
-    ]
+    "platforms": []
   }
 }
